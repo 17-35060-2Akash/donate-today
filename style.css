@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
 
+
 }
 
 .help-container {
@@ -106,7 +107,7 @@ body {
 
 }
 
-input {
+#amount-input {
     border-style: hidden;
     outline: none;
     padding: 10px 40px;
@@ -176,4 +177,75 @@ p {
 
 .service-title {
     color: olive;
+}
+
+.get-update-container {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.get-update-title {
+    font-size: 45px;
+    text-align: center;
+}
+
+#subscription {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#email-input {
+    height: 40px;
+    width: 300px;
+}
+
+
+.subscribe-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding: 11px 30px;
+    border-radius: 3px;
+
+}
+
+#subscription {
+    background-image: linear-gradient(rgb(245, 238, 218), rgb(246, 221, 151));
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#subscription-form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#last-section {
+
+    width: 100%;
+    height: 120px;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(rgb(10, 7, 100), rgb(2, 1, 6));
+    color: white;
+
 }
