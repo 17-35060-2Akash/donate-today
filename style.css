@@ -46,7 +46,74 @@ body {
     border-radius: 5px;
 }
 
-#donate-div {
+.donate-div {
     text-align: center;
     padding-top: 30px;
+}
+
+.donate-today-container {
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    display: inline-block;
+    padding-top: 150px;
+    padding-bottom: 50px;
+
+}
+
+.donate-today-title {
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.quote2 {
+
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.amount-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.amount-box {
+
+    background-image: linear-gradient(rgb(244, 244, 241), rgb(212, 212, 211));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+
+}
+
+#horizontal-rule {
+    width: 50%;
+    color: rgb(226, 224, 224);
+}
+
+#input-amount {
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+
+input {
+    border-style: hidden;
+    outline: none;
+    padding: 10px 40px;
+}
+
+#option200 {
+    border: 2px solid orangered;
+    box-shadow: 2px 2px 50px rgb(250, 136, 95);
+
 }
