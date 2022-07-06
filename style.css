@@ -238,14 +238,32 @@ p {
 #last-section {
 
     width: 100%;
-    height: 120px;
+    height: 200px;
     background-position: center;
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-image: linear-gradient(rgb(10, 7, 100), rgb(2, 1, 6));
     color: white;
 
+}
+
+#be-humble {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+#copy-right {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+    color: rgb(18, 168, 233);
 }
