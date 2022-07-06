@@ -57,7 +57,7 @@ body {
     background-position: center;
     display: inline-block;
     padding-top: 150px;
-    padding-bottom: 50px;
+
 
 }
 
@@ -116,4 +116,64 @@ input {
     border: 2px solid orangered;
     box-shadow: 2px 2px 50px rgb(250, 136, 95);
 
+}
+
+.donate-plan-container {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    display: inline-block;
+    padding-top: 150px;
+
+}
+
+.donate-plan-title {
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.sevices-provided {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-box {
+
+    text-align: center;
+
+    padding: 65px 65px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    width: 20%;
+
+}
+
+p {
+    text-align: justify;
+}
+
+.icons {
+    width: 20%;
+    height: 20%;
+}
+
+#box-1 {
+    background-image: linear-gradient(rgb(214, 232, 228), rgb(124, 235, 207));
+}
+
+#box-2 {
+    background-image: linear-gradient(rgb(223, 238, 210), rgb(172, 234, 124));
+}
+
+#box-3 {
+    background-image: linear-gradient(rgb(239, 237, 200), rgb(240, 231, 105));
+}
+
+.service-title {
+    color: olive;
 }
